@@ -328,7 +328,7 @@ body{
 /* -------------media quires------------ */
 @media(max-width:480px){
     .hero, .features, .learn-more, .video, .programs, .features, .element{
-        padding: 40px;
+        padding: 60px 40px;
     }
     .hero-title{
         font-size: 1.5rem;
@@ -375,7 +375,7 @@ body{
         font-size: 1.5rem;
     }
     .hero{
-        height: 40vh;
+        min-height: 40vh;
     }
 
 }
